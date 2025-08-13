@@ -43,9 +43,8 @@ VICTIM/
 ## Screenshots
 
 ![Screenshot Example](RAT/received_files/screenshot_20250806010348.png)
+![Photo from Phone](RAT/received_files/image.jpg)
 
-*(Add more screenshots in the `RAT/received_files/image.jpg` folder and reference them here)*
-(RAT/image.jpg)
 
 ## Disclaimer
 
@@ -54,3 +53,4 @@ This project is for educational purposes only. Do not use it for unauthorized ac
 ## License
 
 MIT License
+
