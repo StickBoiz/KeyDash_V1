@@ -45,7 +45,7 @@ VICTIM/
 ![Screenshot Example](RAT/received_files/screenshot_20250806010348.png)
 ![Photo from Phone](RAT/received_files/image.jpg)
 
-
+## YOU MUST BE IN SAME NETWORK UNLESS YOUR SERVER IP IS PUBLIC!!!
 ## Disclaimer
 
 This project is for educational purposes only. Do not use it for unauthorized access or malicious activities.
@@ -53,4 +53,5 @@ This project is for educational purposes only. Do not use it for unauthorized ac
 ## License
 
 MIT License
+
 
